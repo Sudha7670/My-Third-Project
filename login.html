@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Services</title>
+    <meta charset="UTF-8">
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- NAVBAR -->
 <nav class="navbar">
     <div class="logo">DevOpsPipeline</div>
     <ul class="nav-links">
@@ -14,21 +16,24 @@
         <li><a href="services.html">Services</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="login.html">Login</a></li>
-
     </ul>
 </nav>
 
 <header>
-    <h1>Our Services</h1>
+    <h1>Login</h1>
+    <p>Access your DevOps Dashboard</p>
 </header>
 
 <section>
-    <ul>
-        <li>CI/CD Automation</li>
-        <li>Docker & Kubernetes</li>
-        <li>Cloud Deployment</li>
-        <li>Monitoring & Logging</li>
-    </ul>
+    <form class="login-form">
+        <label>Username</label><br>
+        <input type="text" placeholder="Enter username" required><br><br>
+
+        <label>Password</label><br>
+        <input type="password" placeholder="Enter password" required><br><br>
+
+        <button type="submit">Login</button>
+    </form>
 </section>
 
 <footer>
